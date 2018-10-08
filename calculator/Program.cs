@@ -7,7 +7,7 @@ namespace calculator
         static void Main(string[] args)
         {
             // prompt user for numbers and operator
-            Console.WriteLine("Please enter some numbers to calculate (Acceptable operators: +, -, x, /) in this format: 4 x 5");
+            Console.Write("Please enter some numbers to calculate (Acceptable operators: +, -, x, /) in this format: 4 x 5: ");
             string input = Console.ReadLine();
             // split user input into array
             string[] calculate = input.Split(' ');
